@@ -1,33 +1,20 @@
-# Amazon-Alexa-Reviews
+# Sentiment Analysis of Hospital Reviews using NLP
 
-## Watch Video: https://www.youtube.com/watch?v=6A2w-KYG4Ko
+## Project Overview
+This project uses Natural Language Processing (NLP) to analyze hospital reviews and classify them as positive, negative. It helps hospitals understand patient sentiments and improve services based on feedback.
 
-## HOW TO RUN
+## Features
+Cleans and processes raw text reviews.
+Analyzes patient sentiments using machine learning.
+Provides insights for better decision-making.
 
-Step 1: Clone the repository
-```
-git clone https://github.com/Surbhit01/Amazon-Alexa-Reviews.git
-```
+## Technologies Used
+Python
+NLP Libraries: NLTK
+Machine Learning: Scikit-learn, RandomForest Classifier, DecisionTree, XgBoost, K-fold Cross-validation
 
-Step 2: Open the cloned repository and create a conda environment. Activate the new environment
-```
-conda create -n amazonreview python=3.10
-```
-```
-conda activate amazonreview
-```
-
-Step 3: Install the requirements file
-```
-pip install -r requirements.txt
-```
-
-Step 4: Run the app
-```
-flask --app api.py run
-```
-
-Step 5: The app will run on port 5000. 
-```
-localhost:5000
-```
+## Steps
+Data Collection: Gather hospital reviews from surveys or forms.
+Preprocessing: Clean and tokenize text data.
+Model Training: Use labeled data to train a sentiment classification model.
+Analysis: Classify new reviews and generate sentiment summaries.
